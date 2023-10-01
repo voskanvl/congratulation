@@ -7,3 +7,5 @@ const slider = new Splide("#slider", {
     autoplay: true,
 })
 slider.mount()
+
+slider.on("moved", a => console.log(a))
