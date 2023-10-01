@@ -1,0 +1,9 @@
+mixin splide(id, arr)
+    section.splide(id= id)
+        .splide__track
+            .splide__list
+                each i, index in arr
+                    .splide__slide
+                        - val = i 
+                        - idx = index
+                        block
