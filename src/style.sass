@@ -38,3 +38,22 @@ img
     font-weight: bold
     line-height: 140%
     text-shadow: 0 0 6px #fff
+
+.loading
+    position: absolute
+    inset: 0
+    width: 50vw
+    height: 50vh
+    margin: auto
+    background: #0003
+    backdrop-filter: blur(3px)
+    display: grid
+    place-items: center
+    color: #fff
+    font-size: 10vw
+    z-index: 2
+
+    &[hidden]
+        z-index: -1
+        opacity: 0
+        pointer-events: none

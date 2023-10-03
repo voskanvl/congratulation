@@ -19,6 +19,8 @@ arr:
 
   - video: "images/nyne.mp4"
     text: И ныне, и присно, и во веки веков! 
+    id: pope
 
   - video: "images/last.mp4"
     text: Мазаль тов!
+    id: hasid

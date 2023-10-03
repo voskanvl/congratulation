@@ -7,3 +7,7 @@ const slider = new Splide("#slider", {
     autoplay: true,
 })
 slider.mount()
+
+const hasid = document.querySelector<HTMLVideoElement>("#hasid"),
+    loading = document.querySelector<HTMLElement>(".loading")
+hasid && hasid.addEventListener("loadeddata", () => loading?.setAttribute("hidden", "hidden"))
