@@ -1,10 +1,10 @@
 include ../components/splide.pug
 
-.loading Loading ...
+//- .loading Loading ...
 +splide("slider",arr)
     if val.img 
         img(src= val.img, alt="")
     if val.video 
         video(src= val.video, width="100%", height="auto", controls muted autoplay, id= val.id)
 
-    .text= val.text
+    .text(class = idx === 0 ? "show":"")= val.text
