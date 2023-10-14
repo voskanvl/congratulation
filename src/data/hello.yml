@@ -1,26 +1,34 @@
 arr:
   - img: "images/first.jpeg"
     text: Пусть душа твоя будет светла, мысли и сердце чисты и создание ясно. 
+    position: center left
 
   - img: "images/angels.jpeg"
     text: И перья на крылах ангелов Г-сподних трепещут при виде твоем от радости и ликования. Хоры их вострубят оссанну в честь твою.
+    position: center right
 
   - img: "images/isaya.jpeg"
     text: "И светила небесные померкнут пред славою твоей. И все те, чье имя вписано в книгу жизни, воскликнут: Исайя ликуй!"
+    position: center right
 
   - img: "images/kiks.jpeg"
     text: О, Артурас, твердыня мудрости, защита нас, сирых, благословен ты при входе твоём и при выходе твоём, контртуш не мешает игре твоей, а кикс не случается николиже.
+    position: center
 
   - img: "images/sons.jpeg"
     text: Благословенны житницы твои и кладовые твои, и да поклонятся тебе сыны жены твоей.
+    position: center right
 
   - img: "images/face.jpeg"
     text: Да благословит тебя Г-сподь и сохранит тебя, да озарит Г-сподь лицо своё для тебя и помилует и даст тебе мир!
+    position: center
 
   - video: "images/nyne.mp4"
     text: И ныне, и присно, и во веки веков! 
     id: pope
+    position: center
 
   - video: "images/last.mp4"
     text: Мазаль тов!
     id: hasid
+    position: center

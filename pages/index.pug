@@ -3,7 +3,8 @@ include ../components/splide.pug
 //- .loading Loading ...
 +splide("slider",arr)
     if val.img 
-        img(src= val.img, alt="")
+        pre= JSON.stringify(val, null, 2)
+        img(src= val.img, alt="", style=`object-position: ${val.position};`)
     if val.video 
         video(src= val.video, width="100%", height="auto", controls muted autoplay, id= val.id)
 
